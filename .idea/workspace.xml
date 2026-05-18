@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d58c8cd-d012-406c-b1db-7a70829f4b99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GameHubStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/inventory-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/order-service/order-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/product-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/product_service/model/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="25" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Luis-torres18"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Luis-torres18/GameHubStore.git",
+    "accountId": "00384315-9834-4ac1-a760-d7bfd8fc16f9"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4181902384450655" />
+      <entry key="MS500" value="3.464173833908606" />
+      <entry key="S2" value="6.0743447470857" />
+      <entry key="S5" value="7.122804794181695" />
+      <entry key="S10" value="7.541067484767998" />
+      <entry key="S30" value="7.842270042404912" />
+      <entry key="S60" value="7.933989362863498" />
+      <entry key="M2" value="8.35201122158275" />
+      <entry key="M5" value="11.691724761488924" />
+      <entry key="M10" value="16.261009338578425" />
+      <entry key="M15" value="18.86947876204921" />
+      <entry key="M30" value="22.34729897788167" />
+      <entry key="H1" value="24.503739477058296" />
+      <entry key="H2" value="25.706100359326307" />
+      <entry key="H4" value="26.341167475822893" />
+      <entry key="D1" value="26.888505398883673" />
+      <entry key="W1" value="26.98403031622341" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.6218022606928626E-304" />
+      <entry key="S2" value="1.8504578762406465E-76" />
+      <entry key="S5" value="7.4792995501162874E-31" />
+      <entry key="S10" value="1.2162792378056728E-15" />
+      <entry key="S30" value="1.6924134834196738E-5" />
+      <entry key="S60" value="0.005853182239233639" />
+      <entry key="M2" value="0.11636747722458227" />
+      <entry key="M5" value="0.847130848763086" />
+      <entry key="M10" value="1.7863737721050288" />
+      <entry key="M15" value="2.3207214435653936" />
+      <entry key="M30" value="3.0359673389560244" />
+      <entry key="H1" value="3.4816892279481197" />
+      <entry key="H2" value="3.7310211231464456" />
+      <entry key="H4" value="3.862953827825506" />
+      <entry key="D1" value="3.9767949542281373" />
+      <entry key="W1" value="3.996675960036656" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3796980752651327" />
+      <entry key="MS500" value="3.442549536025411" />
+      <entry key="S2" value="6.0637163181768" />
+      <entry key="S5" value="7.117698898476917" />
+      <entry key="S10" value="7.5383437638479815" />
+      <entry key="S30" value="7.841336179681318" />
+      <entry key="S60" value="7.939019888349596" />
+      <entry key="M2" value="8.464682548808506" />
+      <entry key="M5" value="12.529298662353073" />
+      <entry key="M10" value="18.03783813272038" />
+      <entry key="M15" value="21.182105852953903" />
+      <entry key="M30" value="25.378089574462535" />
+      <entry key="H1" value="27.982494957586724" />
+      <entry key="H2" value="29.435558933756585" />
+      <entry key="H4" value="30.20331483874681" />
+      <entry key="D1" value="30.865162330367713" />
+      <entry key="W1" value="30.980686468756137" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3DuXEupWGEJSJaMYHiDRSRfqDzb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "update2",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis Torres\Downloads\GameHubStore\GameHubStore" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d58c8cd-d012-406c-b1db-7a70829f4b99" name="Changes" comment="" />
+      <created>1779132820057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779132820057</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
