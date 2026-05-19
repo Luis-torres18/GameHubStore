@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58c8cd-d012-406c-b1db-7a70829f4b99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GameHubStore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameHubStore/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/inventory-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameHubStore/order-service/order-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/product-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/product_service/model/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/pom.xml" afterDir="false" />
+    <list default="true" id="3d58c8cd-d012-406c-b1db-7a70829f4b99" name="Changes" comment="(Actualizacion) Configuracion de base de datos de cada microservicio y problema resuelto no dejaba agregar anotacion en el codigo">
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/dtos/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/dtos/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/inventory-service/inventory-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/inventory-service/inventory-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/product-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/product-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/product_service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/product_service/model/entities/Product.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="25" />
+    <option name="cachedIndexableFilesCount" value="40" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -61,67 +55,76 @@
     "accountId": "00384315-9834-4ac1-a760-d7bfd8fc16f9"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/ProductServiceApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/controller/ProductController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/dtos/ProductRequest.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/dtos/ProductResponse.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/model/entities/Product.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/repository/ProductRepository.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/service/ProductService.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4181902384450655" />
-      <entry key="MS500" value="3.464173833908606" />
-      <entry key="S2" value="6.0743447470857" />
-      <entry key="S5" value="7.122804794181695" />
-      <entry key="S10" value="7.541067484767998" />
-      <entry key="S30" value="7.842270042404912" />
-      <entry key="S60" value="7.933989362863498" />
-      <entry key="M2" value="8.35201122158275" />
-      <entry key="M5" value="11.691724761488924" />
-      <entry key="M10" value="16.261009338578425" />
-      <entry key="M15" value="18.86947876204921" />
-      <entry key="M30" value="22.34729897788167" />
-      <entry key="H1" value="24.503739477058296" />
-      <entry key="H2" value="25.706100359326307" />
-      <entry key="H4" value="26.341167475822893" />
-      <entry key="D1" value="26.888505398883673" />
-      <entry key="W1" value="26.98403031622341" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000042333" />
+      <entry key="S2" value="1.0021051089639557" />
+      <entry key="S5" value="1.1830871050270304" />
+      <entry key="S10" value="2.009136652392864" />
+      <entry key="S30" value="5.78966284331555" />
+      <entry key="S60" value="10.120077397383794" />
+      <entry key="M2" value="16.6795313157033" />
+      <entry key="M5" value="32.728477272212345" />
+      <entry key="M10" value="53.23907448721277" />
+      <entry key="M15" value="69.96147850532743" />
+      <entry key="M30" value="104.16529000916915" />
+      <entry key="H1" value="136.8882590311063" />
+      <entry key="H2" value="166.0681890284833" />
+      <entry key="H4" value="193.16840196795587" />
+      <entry key="D1" value="234.15493264155256" />
+      <entry key="W1" value="244.20770608642954" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.6218022606928626E-304" />
-      <entry key="S2" value="1.8504578762406465E-76" />
-      <entry key="S5" value="7.4792995501162874E-31" />
-      <entry key="S10" value="1.2162792378056728E-15" />
-      <entry key="S30" value="1.6924134834196738E-5" />
-      <entry key="S60" value="0.005853182239233639" />
-      <entry key="M2" value="0.11636747722458227" />
-      <entry key="M5" value="0.847130848763086" />
-      <entry key="M10" value="1.7863737721050288" />
-      <entry key="M15" value="2.3207214435653936" />
-      <entry key="M30" value="3.0359673389560244" />
-      <entry key="H1" value="3.4816892279481197" />
-      <entry key="H2" value="3.7310211231464456" />
-      <entry key="H4" value="3.862953827825506" />
-      <entry key="D1" value="3.9767949542281373" />
-      <entry key="W1" value="3.996675960036656" />
+      <entry key="MS500" value="2.9492672539065027E-301" />
+      <entry key="S2" value="7.369338950172124E-76" />
+      <entry key="S5" value="8.85057349658095E-31" />
+      <entry key="S10" value="9.40774866616928E-16" />
+      <entry key="S30" value="9.79867212772455E-6" />
+      <entry key="S60" value="0.0031437606662975313" />
+      <entry key="M2" value="0.06159056899360837" />
+      <entry key="M5" value="0.6581104004679073" />
+      <entry key="M10" value="2.7506106734954714" />
+      <entry key="M15" value="5.318725598087348" />
+      <entry key="M30" value="11.52076128031181" />
+      <entry key="H1" value="17.7699552897256" />
+      <entry key="H2" value="22.69026714568473" />
+      <entry key="H4" value="26.320022745364103" />
+      <entry key="D1" value="30.819414722053402" />
+      <entry key="W1" value="31.823729731286054" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3796980752651327" />
-      <entry key="MS500" value="3.442549536025411" />
-      <entry key="S2" value="6.0637163181768" />
-      <entry key="S5" value="7.117698898476917" />
-      <entry key="S10" value="7.5383437638479815" />
-      <entry key="S30" value="7.841336179681318" />
-      <entry key="S60" value="7.939019888349596" />
-      <entry key="M2" value="8.464682548808506" />
-      <entry key="M5" value="12.529298662353073" />
-      <entry key="M10" value="18.03783813272038" />
-      <entry key="M15" value="21.182105852953903" />
-      <entry key="M30" value="25.378089574462535" />
-      <entry key="H1" value="27.982494957586724" />
-      <entry key="H2" value="29.435558933756585" />
-      <entry key="H4" value="30.20331483874681" />
-      <entry key="D1" value="30.865162330367713" />
-      <entry key="W1" value="30.980686468756137" />
+      <entry key="MS100" value="0.9138314502294005" />
+      <entry key="MS500" value="0.9821395952675648" />
+      <entry key="S2" value="0.9975620419248872" />
+      <entry key="S5" value="1.1782190401178583" />
+      <entry key="S10" value="1.9979403601919168" />
+      <entry key="S30" value="5.7648381791399546" />
+      <entry key="S60" value="10.095012393165577" />
+      <entry key="M2" value="16.71656437450279" />
+      <entry key="M5" value="33.36252939784283" />
+      <entry key="M10" value="55.95600858499325" />
+      <entry key="M15" value="75.24125844536427" />
+      <entry key="M30" value="115.64767078151421" />
+      <entry key="H1" value="154.62987210059035" />
+      <entry key="H2" value="188.7408475438357" />
+      <entry key="H4" value="219.4784380949234" />
+      <entry key="D1" value="264.9724569325128" />
+      <entry key="W1" value="276.0311588750004" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -139,6 +142,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ProductServiceApplication (1).executor": "Run",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "update2",
     "kotlin-language-version-configured": "true",
@@ -153,9 +158,46 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="product_service.model.dtos" />
+      <recent name="model.dto" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Luis Torres\Downloads\GameHubStore\GameHubStore" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication (1)">
+    <configuration name="ProductServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GameHubStore.ProductServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GameHubStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductServiceApplication (1)" />
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -173,9 +215,43 @@
       <option name="presentableId" value="Default" />
       <updated>1779132820057</updated>
     </task>
+    <task id="LOCAL-00001" summary="(Actualizacion) Configuracion de base de datos de cada microservicio y problema resuelto no dejaba agregar anotacion en el codigo">
+      <option name="closed" value="true" />
+      <created>1779133982230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779133982230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Archivo General" />
+    <MESSAGE value="(Actualizacion) Configuracion de base de datos de cada microservicio y problema resuelto no dejaba agregar anotacion en el codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Actualizacion) Configuracion de base de datos de cada microservicio y problema resuelto no dejaba agregar anotacion en el codigo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/ProductServiceApplication.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/GameHubStore/product-service/src/main/java/com/GameHubStore/ProductServiceApplication.java</url>
+          <line>6</line>
+          <properties class="ProductServiceApplication">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
